@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "qAtXdCXqaAQ=",
+  "success": true,
+  "projectFilePath": "C:\\ARCHIVOS LESLIE\\trabajos personales\\aplicaciones Moviles\\CONVERTOR\\CONVERTOR\\CONVERTOR.iOS\\CONVERTOR.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Leslie\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Leslie\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Leslie\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
