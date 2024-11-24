@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CONVERTOR.VISTAS.Convertir">
+
+    <Grid BackgroundColor="Tan">
+        <StackLayout VerticalOptions="Center"
+                     Margin="20"
+                     Spacing="30">
+            <Image Source=" https://i.ibb.co/gvzfpCP/earth.png"
+                   Margin="20"/>
+            <Frame HasShadow="False"
+                   CornerRadius="15"
+                 >
+                <Entry Keyboard="Numeric"
+                       Placeholder="Centimetros (cm)"
+                       TextColor="Black"
+                       PlaceholderColor="Gray"
+                       FontSize="Large"
+                       x:Name="txtcm"/>
+            </Frame>
+
+            <Button Text="Calcular"
+                    CornerRadius="10"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    Margin="0,20,0,0"
+                    TextTransform="None"
+                    BackgroundColor="PaleGoldenrod"
+                    TextColor="LimeGreen"
+                    x:Name="btncalcular"
+                    Clicked="btncalcular_Clicked"/>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Resaultado"
+                       FontSize="Large"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center"/>
+                <Label Text="00.00"
+                     FontSize="Large"
+                     FontAttributes="Bold"
+                     VerticalOptions="Center"
+                       x:Name="lblresultado"/>
+                
+            </StackLayout>
+
+            <Button Text="Volver"
+                    BackgroundColor="WhiteSmoke"
+                    TextColor="black"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    HorizontalOptions="Center"
+                    CornerRadius="10"
+                    x:Name="btnvolver"
+                    Clicked="btnvolver_Clicked"/>
+            
+        </StackLayout>
+    </Grid>
+  
+   
+
+</ContentPage>
